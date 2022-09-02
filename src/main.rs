@@ -17,7 +17,7 @@ pub fn main() {
     });
 
     match result {
-        Some(search_result) => println!("Explored path: {:#?}", search_result.path()),
+        Some(search_result) => println!("Shortest path: {:#?}", search_result.path()),
         None => println!("Person not found :(")
     }
 }
